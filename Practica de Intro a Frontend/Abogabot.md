@@ -7,6 +7,8 @@
 # Diagramas:
  Con ello es necesario realizar un diagrama para tener una idea y estructura de cómo es que va a interactuar el usuario con el sistema.
  
+ ![Diagrama](https://github.com/ChrisMich2209/LaunchX_2022/blob/main/Practica%20de%20Intro%20a%20Frontend/Diagrama_Abogabot.jpg)
+ 
 
 
 ```diff
