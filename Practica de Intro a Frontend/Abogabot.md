@@ -9,6 +9,14 @@
  
  ![Diagrama](https://github.com/ChrisMich2209/LaunchX_2022/blob/main/Practica%20de%20Intro%20a%20Frontend/Diagrama_Abogabot.jpg)
  
+ #
+ Posterior a ello se realizan los wireframe UX, esto para demostrar la perspectiva de como sería la nevagación por dicha pagina tanto del lado del cliente como del administrador.
+ 
+ ***Cliente***
+ ![](https://github.com/ChrisMich2209/LaunchX_2022/blob/main/Practica%20de%20Intro%20a%20Frontend/Wireframe_Cliente_UX.jpeg)
+ 
+ ***Admin.***
+ ![](https://github.com/ChrisMich2209/LaunchX_2022/blob/main/Practica%20de%20Intro%20a%20Frontend/Wireframe_Admin_UX.jpeg)
 
 
 ```diff
