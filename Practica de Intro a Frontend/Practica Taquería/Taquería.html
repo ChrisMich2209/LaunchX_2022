@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<!--
+**************************************************
+**Elaborado por: Christian Michel Alvarez Sanchez**
+**Fecha: 16/06/2022********************************
+**Práctica,LaunchX*********************************
+***************************************************
+***************************************************
+-->
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TacoSpace</title>
+</head>
+<body>
+
+<section>
+    <header>
+        <img src="./Tacospace.png" alt="">
+    </header>
+
+</section>
+  
+<!-- Menú de tacos-->
+<section>
+
+    <h1>--Tacos--</h1>
+    <ul>
+        <li>Bisteck ..........................$14</li>
+        <li>Chorizo .........................$14</li>
+        <li>Carnaza .........................$14</li>
+        <li>Pastor  ............................$14</li>
+        <li>Tripa   .............................$18</li>
+</ul>
+<hr>
+<!--Especialidades-->
+<h1>--Especialidades--</h1>
+<dl>
+    <dt>***Platillo Volador***</dt>
+    <dd>Tortilla dorada con bisteck, guacamole, cebolla y verdura.</dd>
+    <dt>***Astronauta***</dt>
+    <dd>Orden campechana con chiles toreados, frijoles, tortillas y guacamole. </dd>
+    <dt>***El transbordador***</dt>
+    <dd>Tortila de harina con bistec, pastor, chorizo y frijoles, acompado de guacamole y verdura. </dd>
+</dl>
+<hr>
+<h3>Sucursales</h3>
+<a href="https://www.google.com.mx/maps/place/And.+Centenario+37,+Centro,+45640+Tlajomulco+de+Z%C3%BA%C3%B1iga,+Jal./@20.4759236,-103.4471369,17z/data=!4m13!1m7!3m6!1s0x842f53fec689512f:0x41512cab5472e4c6!2sAnd.+Centenario+37,+Centro,+45640+Tlajomulco+de+Z%C3%BA%C3%B1iga,+Jal.!3b1!8m2!3d20.4759236!4d-103.4471369!3m4!1s0x842f53fec689512f:0x41512cab5472e4c6!8m2!3d20.4759236!4d-103.4471369" target="_blank">1.-Centro de Tlajomulco de Zúñiga, Jal.</a><br>
+<a href="https://www.google.com.mx/maps/place/C.+Juan+de+la+Barrera+3609,+Las+Juntas,+45590+Guadalajara,+Jal./@20.6179193,-103.3393414,17z/data=!3m1!4b1!4m5!3m4!1s0x8428b28ae9f2e52d:0xd0c5b2419153d073!8m2!3d20.6175357!4d-103.3377928" target="_blank"> 2.-C. Juan de la Barrera 3609</a><br>
+
+<hr>
+<br>
+</section>
+
+<!--Formulario de pedido-->
+<section>
+    <form>
+<h1>***Ordene a quí***</h1>
+<br>
+<h3>¿Cuantos tacos va a querer?</h3>
+
+<input type="checkbox" id="Bisteck" name="Bisteck" value="Bisteck">
+<label for="Bisteck">Bisteck</label><br>
+<label>¿Cuantos?</label>
+<input type="number" id="BisteckNumber" name="BisteckNumber" value="BisteckNumber"><br>
+
+<input type="checkbox" id="Chorizo" name="Chorizo" value="Chorizo">
+<label for="Chorizo">Chorizo</label><br>
+<label>¿Cuantos?</label>
+<input type="number" id="ChorizoNumber" name="ChorizoNumber" value="ChorizoNumber"><br>
+
+<input type="checkbox" id="Carnaza" name="Carnaza" value="Carnaza">
+<label for="Carnaza">Carnaza</label><br>
+<label>¿Cuantos?</label>
+<input type="number" id="CarnazaNumber" name="CarnazaNumber" value="CarnazaNumber"><br>
+
+<input type="checkbox" id="Pastor" name="Pastor" value="Pastor">
+<label for="Pastor">Pastor</label><br>
+<label>¿Cuantos?</label>
+<input type="number" id="PastorNumber" name="PastorNumber" value="PastorNumber"><br>
+
+<input type="checkbox" id="Tripa" name="Tripa" value="Tripa">
+<label for="Tripa">Tripa</label><br>
+<label>¿Cuantos?</label>
+<input type="number" id="TripaNumber" name="TripaNumber" value="TripaNumber"><br>
+
+<h3>¿Van con verdura?</h3>
+<select>
+    <option value="Si">Sí</option>
+    <option value="No">No</option>
+</select>
+
+<h3>¿Alguna especialidad?</h3>
+<input type="checkbox" id="PlatilloVolador" name="PlatilloVolador" value="PlatilloVolador">
+<label for="PlatilloVolador">Platillo Volador</label><br>
+<label>¿Cuantos?</label>
+<input type="number" id="PlatilloVoladorNumber" name="PlatilloVoladorNumber" value="PlatilloVoladorNumber"><br>
+
+<input type="checkbox" id="Astronauta" name="Astronauta" value="Astronauta">
+<label for="Astronauta">Astronauta</label><br>
+<label>¿Cuantos?</label>
+<input type="number" id="AstronautaNumber" name="AstronautaNumber" value="AstronautaNumber"><br>
+
+<input type="checkbox" id="ElTransbordador" name="ElTransbordador" value="ElTransbordador">
+<label for="ElTransbordador">El transbordador</label><br>
+<label>¿Cuantos?</label>
+<input type="number" id="ElTransbordadorNumber" name="ElTransbordadorNumber" value="ElTransbordadorNumber"><br>
+
+<h3>¿Van con verdura?</h3>
+<select>
+    <option value="Si">Sí</option>
+    <option value="No">No</option>
+</select>
+<br>
+<h3>Datos de envío</h3>
+
+<label>Nombre</label>
+<input type="text" id="NombreCliente" name="NombreCliente" placeholder="¿Quién recibe?"><br>
+
+<label>Dirección</label>
+<input type="text" id="DireccionCliente" name="DireccionCliente" placeholder="Domicilio de entrega"><br>
+
+<label>Teléfono</label>
+<input type="text" id="TelefonoCliente" name="TelefonoCliente" placeholder="Teléfono contacto"><br>
+<br>
+
+<button type="submit">Enviar pedido</button>
+<button type="reset">Eliminar pedido</button>
+
+</form>
+</section>
+
+
+
+
+</body>
+</html>
