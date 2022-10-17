@@ -1,7 +1,7 @@
 # LaunchX_2022
 
 
-# ¿Practicas de Intro a Frontend?
+# Directo a el viaje
 
 
 
